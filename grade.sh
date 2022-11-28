@@ -6,6 +6,8 @@ echo 'Finished cloning'
 
 SCORE="0"
 
+cd student-submission
+
 if [[ -f "ListExamples.java" ]]
 then
     echo "ListExamples.java exists"
