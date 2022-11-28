@@ -21,7 +21,7 @@ cp ../TestListExamples.java ./
 javac -cp .:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar *.java
 #javac -cp *.java
 
-if [[ $? -eq 0]]
+if [[ $? -eq 0 ]]
 then
     echo "Successsfully Compiled"
 else
@@ -30,7 +30,7 @@ fi
 #java -cp TestListExamples > testresults.txt
 java -cp .:../lib/hamcrest-core-1.3.jar:../lib/Junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples > TestResults.txt
 
-if [[] $? -eq 0]]
+if [[ $? -eq 0 ]]
 then
     echo "Successfully Run"
 else
