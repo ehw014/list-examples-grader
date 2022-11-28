@@ -17,6 +17,8 @@ else
 fi 
 
 cp ../TestListExamples.java ./
+cp ../lib/hamcrest-core-1.3.jar student-submission
+cp ../lib/junit-4.13.2.jar student-submission
 
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 #javac -cp *.java
