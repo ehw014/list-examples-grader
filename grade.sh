@@ -35,3 +35,5 @@ then
     echo "Successfully Run"
 else
     echo "Runtime Error, Score = "$SCORE
+fi
+
